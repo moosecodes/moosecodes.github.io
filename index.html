@@ -1,7 +1,9 @@
-Hello
- World!
+Hello World! testing javascript date
+<div id="date"></div>
 
 <script>
-const year = new Date().getFullYear()
-console.log(year)
+  const year = new Date().getFullYear();
+  console.log(year);
+  let dateElement = document.getElementById("date");
+  dateElement.innerText = year;
 </script>
