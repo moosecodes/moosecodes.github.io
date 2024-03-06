@@ -1,9 +1,17 @@
-Hello World! testing javascript date
-<div id="date"></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>moosecodes.github.io</title>
+  </head>
+  <body>
+    <div id="date"></div>
 
-<script>
-  const year = new Date().getFullYear();
-  console.log(year);
-  let dateElement = document.getElementById("date");
-  dateElement.innerText = year;
-</script>
+    <script>
+      const year = new Date().getFullYear();
+      let dateElement = document.getElementById("date");
+      dateElement.innerText = year;
+    </script>
+  </body>
+</html>
