@@ -12,7 +12,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          moosecodes
+          moosecodes github page
         </a>
       </header>
     </div>
